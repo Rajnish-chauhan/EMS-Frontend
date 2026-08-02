@@ -1,0 +1,29 @@
+/* --- Global Resets & Variables --- */
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  /* Background color for the entire page */
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Remove default browser margins/padding and ensure consistent box sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Base button and input styling to ensure they inherit fonts properly */
+button, input, select, textarea {
+  font-family: inherit;
+}
